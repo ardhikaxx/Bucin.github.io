@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#love-container {
+    position: relative;
+    margin-top: 100px;
+}
+
+#love-animation {
+    font-size: 100px;
+    color: red;
+    animation: moveLove 2s linear infinite;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border: none;
+}
+
+#yes-button {
+    background-color: rgb(0, 232, 0); /* Warna latar belakang untuk tombol "Iya" */
+}
+
+#no-button {
+    background-color: red; /* Warna latar belakang untuk tombol "Tidak" */
+}
