@@ -15,12 +15,6 @@ yesButton.addEventListener("click", () => {
     message.style.fontSize = "24px";
     yesButton.style.display = "none";
     noButton.style.display = "none";
-
-    // Untuk membuka WhatsApp Web dengan nomor dan pesan yang sudah diisi
-    const phoneNumber = '085933648537'; // Ganti dengan nomor WhatsApp yang akan Anda tuju
-    const text = `I love you ${name}`; // Isi pesan yang akan dikirim
-    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
-    window.open(whatsappURL);
 });
 
 noButton.addEventListener("click", () => {
